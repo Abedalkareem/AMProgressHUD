@@ -1,8 +1,8 @@
 {
   "name": "AMProgressHUD",
   "version": "0.1.0",
-  "summary": "A short description of AMProgressHUD.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A gif progress HUD for your iOS.",
+  "description": "A gif progress HUD to display the progress of an ongoing task.",
   "homepage": "https://github.com/Abedalkareem/AMProgressHUD",
   "license": {
     "type": "MIT",
@@ -15,6 +15,7 @@
     "git": "https://github.com/Abedalkareem/AMProgressHUD.git",
     "tag": "0.1.0"
   },
+  "swift_version": "4.1",
   "platforms": {
     "ios": "8.0"
   },
