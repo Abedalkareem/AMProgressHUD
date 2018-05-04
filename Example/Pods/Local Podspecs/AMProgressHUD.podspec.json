@@ -1,0 +1,22 @@
+{
+  "name": "AMProgressHUD",
+  "version": "0.1.0",
+  "summary": "A short description of AMProgressHUD.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Abedalkareem/AMProgressHUD",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Abedalkareem": "abedalkareem.omreyh@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/Abedalkareem/AMProgressHUD.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AMProgressHUD/Classes/**/*"
+}

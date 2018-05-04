@@ -1,0 +1,16 @@
+PODS:
+  - AMProgressHUD (0.1.0)
+
+DEPENDENCIES:
+  - AMProgressHUD (from `../`)
+
+EXTERNAL SOURCES:
+  AMProgressHUD:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AMProgressHUD: ff71010e7d1a6fd667c85d93334023696637cddc
+
+PODFILE CHECKSUM: 8ea126ac141fc466b2302cb28d1167359c3460af
+
+COCOAPODS: 1.5.0
