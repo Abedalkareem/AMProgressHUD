@@ -122,5 +122,5 @@ class GifHUDOptions {
     /// To determine if the loading view cancelable or not, the defualt is `false`.
     var cancable = false
     /// The gif `imageview` content mode, the defualt is `scaleAspectFit`.
-    var contentMode: UIViewContentMode = .scaleAspectFit
+    var contentMode: UIView.ContentMode = .scaleAspectFit
 }
