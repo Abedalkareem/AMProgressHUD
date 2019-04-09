@@ -10,10 +10,10 @@
 import UIKit
 import ImageIO
 
-class AMProgressHUD: UIView {
+public class AMProgressHUD: UIView {
     
     /// The object that save all the AMProgressHUD options, (colors, corner radius, image name, duration)
-    static let options = GifHUDOptions()
+    public static let options = GifHUDOptions()
 
     static private let view = AMProgressHUD()
     static private let appWindow = UIApplication.shared.keyWindow
@@ -81,7 +81,7 @@ class AMProgressHUD: UIView {
         return images
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if AMProgressHUD.options.cancable {
             removeFromSuperview()
         }
@@ -90,13 +90,13 @@ class AMProgressHUD: UIView {
     
     // MARK: Public methods Show/Dismiss functions
     
-    static func show() {
+    public static func show() {
         if AMProgressHUD.view.superview == nil {
             appWindow?.addSubview(AMProgressHUD.view)
         }
     }
     
-    static func dismiss() {
+    public static func dismiss() {
         if AMProgressHUD.view.superview != nil {
             AMProgressHUD.view.removeFromSuperview()
         }
@@ -106,21 +106,21 @@ class AMProgressHUD: UIView {
 
 // MARK: AMProgressHUD Options
 
-class GifHUDOptions {
+public class GifHUDOptions {
     /// The duration for the gif image animation, the defualt is `0`.
-    var animationDuration = 1.0
+    public var animationDuration = 1.0
     /// The repeat count for the gif image, the default is `0` (Infinity).
-    var animationRepeatCount = 0
+    public var animationRepeatCount = 0
     /// Background color for the loading view, the default is `white`.
-    var backgroundColor = UIColor.white
+    public var backgroundColor = UIColor.white
     /// The alpha for the background of the black view below the loading view, the default is `0`.
-    var backgroundAlpha:CGFloat = 0
+    public var backgroundAlpha:CGFloat = 0
     /// The corner radius of the loading view, the default is `0`.
-    var cornerRadius:CGFloat = 20
+    public var cornerRadius:CGFloat = 20
     /// The gif image name.
-    var imageName = ""
+    public var imageName = ""
     /// To determine if the loading view cancelable or not, the defualt is `false`.
-    var cancable = false
+    public var cancable = false
     /// The gif `imageview` content mode, the defualt is `scaleAspectFit`.
-    var contentMode: UIView.ContentMode = .scaleAspectFit
+    public var contentMode: UIView.ContentMode = .scaleAspectFit
 }
