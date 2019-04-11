@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AMProgressHUD'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A gif progress HUD for your iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -27,9 +27,9 @@ Pod::Spec.new do |s|
   s.author           = { 'Abedalkareem' => 'abedalkareem.omreyh@yahoo.com' }
   s.source           = { :git => 'https://github.com/Abedalkareem/AMProgressHUD.git', :tag => s.version.to_s }
   s.swift_version    = '5.0'
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/AbedalkareemOmr'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'AMProgressHUD/Classes/**/*'
   
