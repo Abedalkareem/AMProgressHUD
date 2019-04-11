@@ -23,7 +23,7 @@ class AMProgressHUD: UIView {
     
     // MARK: init
     init() {
-        super.init(frame: AMProgressHUD.appWindow!.frame)
+        super.init(frame: AMProgressHUD.appWindow!.bounds)
         initBackgroundView()
         initLoadingView()
     }
