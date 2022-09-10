@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AMProgressHUD'
-  s.version          = '1.0.0'
-  s.summary          = 'A gif progress HUD for your iOS.'
+  s.version          = '1.1.0'
+  s.summary          = 'A gif progress HUD for iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-    A gif progress HUD to display the progress of an ongoing task.
+    A gif progress HUD to display a progress of an ongoing task.
                        DESC
 
   s.homepage         = 'https://github.com/Abedalkareem/AMProgressHUD'
@@ -29,9 +29,9 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.0'
   s.social_media_url = 'https://twitter.com/AbedalkareemOmr'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '14.0'
 
-  s.source_files = 'AMProgressHUD/Classes/**/*'
+  s.source_files = 'AMProgressHUD/AMProgressHUD/Classes/**/*'
   
   # s.resource_bundles = {
   #   'AMProgressHUD' => ['AMProgressHUD/Assets/*.png']

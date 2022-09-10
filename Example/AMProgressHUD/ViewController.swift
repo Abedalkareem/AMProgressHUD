@@ -11,17 +11,17 @@ import AMProgressHUD
 
 class ViewController: UIViewController {
 
+  // MARK: - ViewController lifecycle
+
   override func viewDidLoad() {
     super.viewDidLoad()
-    
 
-    
   }
 
-  override func viewDidAppear(_ animated: Bool) {
-    super.viewDidAppear(animated)
+  // MARK: - IBActions
+
+  @IBAction private func showLoading(_ sender: Any) {
     AMProgressHUD.show()
   }
-  
-}
 
+}
