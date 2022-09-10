@@ -17,9 +17,27 @@
 
  <img src="https://raw.githubusercontent.com/Abedalkareem/AMProgressHUD/master/ampreogress_screenshot.gif"  width="350">  
 
-## Example
+## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To set the the Progress HUD options.
+
+```swift
+AMProgressHUD.options.imageName = "giphy" // the name of the gif image.
+AMProgressHUD.options.backgroundColor = UIColor.red // the background color.
+AMProgressHUD.options.cancable = true
+```  
+
+To show the HUD:
+
+```swift
+AMProgressHUD.show()
+```
+
+To Hide the HUD:
+
+```swift
+AMProgressHUD.dismiss()
+```
 
 ## Installation
 
